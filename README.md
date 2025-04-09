@@ -20,7 +20,7 @@ pix2text seems to support this but it has been disabled in the UI cos I only nee
 
 ### Manual Deployment
 
-1. Install python. python 3.10 works for me. Will see if python 3.12 also works or not, should be I guess
+1. Install python. python 3.10 works for me. python 3.12 also works
 2. make a venv
    ```bash
    python venv venv
@@ -47,7 +47,7 @@ pix2text seems to support this but it has been disabled in the UI cos I only nee
 
 1. Install python
 2. launch
-   - In Windows, use double click `launch.bat`
+   - In Windows, double click `launch.bat`
    - In Linux do `chmod +x lanuch.sh` to elevate the permission first then launch `./launch.sh`
 3. Do youre things
 
