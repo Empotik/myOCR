@@ -6,15 +6,15 @@ Simple LaTeX syntax math equation extraction from image using pix2text as backen
 
 ### Math Equation Extraction
 
-you give it an image, it do it thing. On CPU(or GPU if it's nvidia and supported), take a couple of second. Then if you're lucky, LaTeX style math equation.
+you give it an image, it does its things. On CPU(or GPU if it's nvidia and supported), take a couple of seconds. Then if you're lucky, LaTeX style math equation.
 
 ### Two ways of upload the image
 
-You can paste from clipboard (like you task screanshot) but not ctrl+V or that apple cmd thing + V to paste but click the little paste from clipboard icon. Also you can drag and drop image to the UI.
+You can paste from clipboard (like you task screanshot) but not ctrl+V or that apple cmd thing + V to paste but click the little paste from clipboard icon. Also you can drag and drop image onto the UI.
 
 ### (supposed) PDF files extraction
 
-pix2text seems to support this and in app.py it even have the fuction for it already. However, I didn't test this cos I only need math equations for LLM to solve, LOL
+pix2text seems to support this but it has been disabled in the UI cos I only need math equations for LLM to solve, LOL
 
 ## How To Use?
 
@@ -47,7 +47,7 @@ pix2text seems to support this and in app.py it even have the fuction for it alr
 
 1. Install python
 2. launch
-   - In Windows, use double click launch.bat
+   - In Windows, use double click `launch.bat`
    - In Linux do `chmod +x lanuch.sh` to elevate the permission first then launch `./launch.sh`
 3. Do youre things
 
@@ -58,7 +58,5 @@ pix2text seems to support this and in app.py it even have the fuction for it alr
 
 ## Future Works
 
-- use other model for imporved accuracy. I think pix2text did under the hood used YOLO like models.
-- reinventing the whele. instead of relying on pix2text. I suppose I can use ONNX models for a better performance and compatibility
-- go learn proper refined oxford english. yeah i know there's a lot of typoes and also gramatical errors. But good luck for you that this wasnt written in a "funny" foreing language.
-- be your housewife. a submissive stay-at-home waifu: `ご飯にする？お風呂にする？それとも...私？🥵`
+- use other models for imporved accuracy. I think pix2text did under the hood use YOLO like models.
+- reinventing the whele; instead of relying on pix2text, I suppose I can use ONNX models for a better performance and compatibility
